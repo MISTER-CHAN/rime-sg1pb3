@@ -20,13 +20,14 @@
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | **Q**<br>aat<br><br> | **W**<br>aap<br><br> | **E**<br><br><br> | **R**<br>gw<br>ap | **T**<br>yut<br>ut | **Y**<br>yu<br>oe | **U**<br>ou<br><br> | **I**<br>kw<br>ei | **O**<br><br><br> | **P**<br>ok<br><br> |
 | **A**<br>aa<br><br> | **S**<br>aak<br>ak | **D**<br>eng<br><br> | **F**<br>ek<br><br> | **G**<br>oeng<br><br> | **H**<br>oek<br><br> | **J**<br>ung<br><br> | **K**<br>uk<br><br> | **L**<br>ik<br><br> | **;**<br>ong<br><br> |
-| **Z**<br>aan<br><br> | **X**<br>aam<br><br> | **C**<br>aang<br>ang | **V**<br>an<br><br> | **B**<br>am<br><br> | **N**<br>eon<br>on | **M**<br>yun<br>un | **,**<br>ing<br><br> | **.**<br>in<br><br> | **/**<br>im |
+| **Z**<br>aan<br><br> | **X**<br>aam<br><br> | **C**<br>aang<br>ang | **V**<br>an<br><br> | **B**<br>am<br><br> | **N**<br>eon<br>on | **M**<br>yun<br>un | **,**<br>ing<br><br> | **.**<br>in<br><br> | **/**<br>im<br><br> |
 ### SQMPIV 三拼
 | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | **Q**<br>aa<br><br> | **W**<br><br><br> | **E**<br><br><br> | **R**<br>gw<br>eo | **T**<br><br><br> | **Y**<br>yu<br><br> | **U**<br><br><br> | **I**<br>kw<br><br> | **O**<br><br><br> | **P**<br><br><br> |
 | **A**<br> | **S**<br> | **D**<br> | **F**<br> | **G**<br> | **H**<br> | **J**<br> | **K**<br> | **L**<br> | **;**<br> |
 | **Z**<br><br> | **X**<br><br> | **C**<br><br> | **V**<br>ng | **B**<br><br> | **N**<br><br> | **M**<br><br> | **,**<br><br> | **.**<br><br> | **/**<br><br> |
-# SBPV 雙拼（帶聲調版）
-## 使用說明
-爲區分入聲字與非入聲字，輸入音節之後可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
+## 聲調輸入
+配方：℞ `sb1pv3`
+### 使用說明
+爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
