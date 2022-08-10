@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: sb1pv3
+  schema_id: sbpv
   name: "SBPV 雙拼"
   version: '1.0'
   author:
@@ -57,9 +57,7 @@ speller:
   initials: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/(?<=[ptk])1/7/
-    - xform/(?<=[ptk])3/8/
-    - xform/(?<=[ptk])6/9/
+    - xform/\d//
     - xform/aau/Q/
     - xform/^w|aai/W/
     - xform/(?<!o)e(?=\d)/E/
@@ -88,13 +86,12 @@ speller:
     - xform/^m|o(?:ng|k)/M/
     - erase/^.*[a-z].*$/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
-    - derive/\d//
     - abbrev/^..+$/./
 
 translator:
   dictionary: jyut6ping3
   spelling_hints: 0
-  prism: sb1pv3
+  prism: sbpv
   preedit_format:
     - xlit/abcdefghijklmnopqrstuvwxyz/ABCDEFGHIJKLMNOPQRSTUVWXYZ/
 
