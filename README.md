@@ -22,7 +22,7 @@
 ### SQMPIV 三拼
 | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Q**<br>aa<br><br> | **W**<br><br><br> | **E**<br><br><br> | **R**<br>gw<br>eo | **T**<br><br><br> | **Y**<br>yu<br><br> | **U**<br><br><br> | **I**<br>kw<br><br> | **O**<br><br><br> | **P**<br><br><br> |
+| **Q**<br>aa<br><br><br> | **W**<br><br><br><br> | **E**<br><br><br><br> | **R**<br>gw<br>eo<br>oe | **T**<br><br><br><br> | **Y**<br>yu<br><br><br> | **U**<br><br><br><br> | **I**<br>kw<br><br><br> | **O**<br><br><br><br> | **P**<br><br><br><br> |
 | **A**<br> | **S**<br> | **D**<br> | **F**<br> | **G**<br> | **H**<br> | **J**<br> | **K**<br> | **L**<br> | **;**<br> |
 | **Z**<br><br> | **X**<br><br> | **C**<br><br> | **V**<br>ng | **B**<br><br> | **N**<br><br> | **M**<br><br> | **,**<br><br> | **.**<br><br> | **/**<br><br> |
 ## 使用說明
