@@ -27,3 +27,6 @@
 | **Q**<br>aa<br><br> | **W**<br><br><br> | **E**<br><br><br> | **R**<br>gw<br>eo | **T**<br><br><br> | **Y**<br>yu<br><br> | **U**<br><br><br> | **I**<br>kw<br><br> | **O**<br><br><br> | **P**<br><br><br> |
 | **A**<br> | **S**<br> | **D**<br> | **F**<br> | **G**<br> | **H**<br> | **J**<br> | **K**<br> | **L**<br> | **;**<br> |
 | **Z**<br><br> | **X**<br><br> | **C**<br><br> | **V**<br>ng | **B**<br><br> | **N**<br><br> | **M**<br><br> | **,**<br><br> | **.**<br><br> | **/**<br><br> |
+# SBPV 雙拼（帶聲調版）
+## 使用說明
+爲區分入聲字與非入聲字，輸入音節之後可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
