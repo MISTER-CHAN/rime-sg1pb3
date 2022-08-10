@@ -1,13 +1,11 @@
 # SBPV 雙拼、SQMPIV 三拼
 基於 Rime 中州韻輸入法引擎，依賴於 [`rime-cantonese`](https://github.com/rime/rime-cantonese)。
 ## 簡介
-**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。
-
-<img src="https://github.com/MISTER-CHAN/rime-SB1PV3/blob/main/images/SB1PV3_ap.jpg" align=center>
-<img src="https://github.com/MISTER-CHAN/rime-SB1PV3/blob/main/images/SB1PV3_gw.jpg" align=center>
-<img src="https://github.com/MISTER-CHAN/rime-SB1PV3/blob/main/images/SB1PV3_yun.jpg" align=center>
-<img src="https://github.com/MISTER-CHAN/rime-SB1PV3/blob/main/images/SB1PV3_oe.jpg" align=center>
-
+**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。<br>
+![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)<br>
+![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)<br>
+![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)<br>
+![SB1PV3_oe](https://user-images.githubusercontent.com/18757881/183942963-ff47573e-133e-4b10-a12b-c487042816b1.jpg)
 ## 鍵位圖
 ### SBPV 雙拼
 | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
