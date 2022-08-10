@@ -1,5 +1,5 @@
 # SBPV 雙拼、SQMPIV 三拼
-基於 Rime 中州韻輸入法引擎
+基於 Rime 中州韻輸入法引擎，依賴於 [`rime-cantonese`](https://github.com/rime/rime-cantonese)。
 ## 簡介
 **SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。
 
