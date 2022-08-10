@@ -1,0 +1,126 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: sb1pv3
+  name: "SBPV 雙拼"
+  version: '1.0'
+  author:
+    - MISTER_CHAN <mister.chan@qq.com>
+  description: |
+    粵語雙拼
+    採用香港語言學學會粵語拼音方案
+  dependencies:
+    - stroke
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ "。，", "．，" ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: emoji_suggestion
+    reset: 1
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - simplifier@emoji_suggestion
+    - uniquifier
+    - charset_filter@gbk
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  initials: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - xform/(?<=[ptk])1/7/
+    - xform/(?<=[ptk])3/8/
+    - xform/(?<=[ptk])6/9/
+    - erase/^e[mp]\d$/
+    - xform/aau/Q/
+    - xform/^w|aai/W/
+    - xform/(?<!o)e(?=\d)/E/
+    - xform/k(?=u\d|ui|un\d|ut)|kw|(?<![aeou])i(?=\d)|ei/I/
+    - xform/g(?=u\d|ui|un\d|ut)|gw|ui|eoi/R/
+    - xform/^t|[ei]u/T/
+    - xform/(?:yu|oe)(?=\d)/Y/
+    - xform/(?<![aeio])u(?=\d)|ou/U/
+    - xform/o(?=\d)/O/
+    - xform/^p|oi/P/
+    - xform/aa(?=\d)/A/
+    - xform/s|au/S/
+    - xform/d|ai/D/
+    - xform/f|(?<!a)a(?:n(?!g)|t)/F/
+    - xform/^g|(?<!a)a[mp]/G/
+    - xform/h|y?u(?:n(?!g)|t)/H/
+    - xform/j|e?o(?:n(?!g)|t)/J/
+    - xform/^k|i(?:n(?!g)|t)/K/
+    - xform/l|[ei][mp]/L/
+    - xform/z|aa(?:n|t)/Z/
+    - xform/aa[mp]/X/
+    - xform/c|aa?(?:ng|k)/C/
+    - xform/^ng|(?:i|(?<!o)e)(?:ng|k)/V/
+    - xform/b|oe(?:ng|k)/B/
+    - xform/^n|u(?:ng|k)/N/
+    - xform/^m|o(?:ng|k)/M/
+    - erase/^.*[a-z].*$/
+    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+    - derive/\d//
+    - abbrev/^..+$/./
+
+translator:
+  dictionary: jyut6ping3
+  spelling_hints: 0
+  prism: sb1pv3
+  preedit_format:
+    - xlit/abcdefghijklmnopqrstuvwxyz/ABCDEFGHIJKLMNOPQRSTUVWXYZ/
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xform/`(.+)/$1/
+    - xlit/hspnz/一丨丿丶乙/
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
+
+punctuator:
+  import_preset: symbols_cantonese
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^`[hspnz]*'?$"
