@@ -27,7 +27,11 @@
 | **Q**<br>aa<br><br> | **W**<br><br><br> | **E**<br><br><br> | **R**<br>gw<br>eo | **T**<br><br><br> | **Y**<br>yu<br><br> | **U**<br><br><br> | **I**<br>kw<br><br> | **O**<br><br><br> | **P**<br><br><br> |
 | **A**<br> | **S**<br> | **D**<br> | **F**<br> | **G**<br> | **H**<br> | **J**<br> | **K**<br> | **L**<br> | **;**<br> |
 | **Z**<br><br> | **X**<br><br> | **C**<br><br> | **V**<br>ng | **B**<br><br> | **N**<br><br> | **M**<br><br> | **,**<br><br> | **.**<br><br> | **/**<br><br> |
-## 聲調輸入
-配方：℞ `sb1pv3`
-### 使用說明
+## 使用說明
+### 聲調輸入
+配方：℞ `sb1pv3`<br>
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
+### 注意
+- 如果要輸入以 [kuː]、[kʰuː] 音起頭嘅拼音（譬如 `gun`、`kut`），聲母要改串成 `gw`、`kw`。<details><summary>即係話，</summary>如果要打個「官」字，應該撳 <kbd>R</kbd><kbd>H</kbd> 而唔係 <kbd>G</kbd><kbd>H</kbd>。</details>
+### 未聽講過雙拼？
+**雙拼**係拼音輸入法嘅一種編碼方案。用雙拼打字嘅時候只需要分別撳一下聲母同韻母總共兩個掣就可以打出任意一個漢字。詳見[維基百科](https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%8B%BC)。
