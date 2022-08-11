@@ -57,7 +57,6 @@ speller:
   initials: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/\d//
     - xform/aau/Q/
     - xform/^w|aai/W/
     - xform/(?<!o)e(?=\d)/E/
@@ -86,6 +85,7 @@ speller:
     - xform/^m|o(?:ng|k)/M/
     - erase/^.*[a-z].*$/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+    - xform/\d//
     - abbrev/^..+$/./
 
 translator:
