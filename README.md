@@ -1,37 +1,176 @@
 # SBPV 雙拼
 基於 Rime 中州韻輸入法引擎，依賴於 [`rime-cantonese`](https://github.com/rime/rime-cantonese)，採用[香港語言學學會粵語拼音方案](https://www.lshk.org/jyutping)。
 ## 簡介
-**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。<br>
-![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)<br>
-![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)<br>
-![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)<br>
+**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。<br/>
+![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)<br/>
+![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)<br/>
+![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)<br/>
 ![SB1PV3_oe](https://user-images.githubusercontent.com/18757881/183942963-ff47573e-133e-4b10-a12b-c487042816b1.jpg)
 ## 鍵位圖
 採用 QWERTY 佈局
-### SBPV 雙拼
-℞ `sbpv`
-| **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Q**<br>aau<br><br><br> | **W**<br>aai<br><br><br> | **E**<br><br><br><br> | **R**<br>gw<br>eoi<br>ui | **T**<br>iu<br><br><br> | **Y**<br>yu<br>oe<br><br> | **U**<br>ou<br><br><br> | **I**<br>kw<br>ei<br><br> | **O**<br><br><br><br> | **P**<br>oi<br><br><br> |
-| **A**<br>aa<br><br><br><br> | **S**<br>au<br><br><br><br> | **D**<br>ai<br><br><br><br> | **F**<br>at<br>an<br><br><br> | **G**<br>ap<br>am<br><br><br> | **H**<br>yut<br>yun<br>ut<br>un | **J**<br>eot<br>eon<br>ot<br>on | **K**<br>it<br>in<br><br><br> | **L**<br>ip<br>im<br><br><br> | **;**<br><br><br><br><br> |
-| **Z**<br>aat<br>aan<br><br><br><br> | **X**<br>aap<br>aam<br><br><br><br> | **C**<br>aak<br>aang<br>ak<br>ang<br><br> | **V**<br>ng<br>ek<br>eng<br>ik<br>ing | **B**<br>oek<br>oeng<br><br><br><br> | **N**<br>uk<br>ung<br><br><br><br> | **M**<br>ok<br>ong<br><br><br><br> | **,**<br><br><br><br><br><br> | **.**<br><br><br><br><br><br> | **/**<br><br><br><br><br><br> |
-### SGP, 雙拼
-℞ `sgp,`
-| **1**<br>aat<br><br> | **2**<br>aap<br><br> | **3**<br>au<br><br> | **4**<br>yut<br>ut<br> | **5**<br>eot<br>ot | **6**<br>eoi<br>ui | **7**<br>it<br><br> | **8**<br>iu<br><br> | **9**<br>oi<br><br> | **0**<br>ip<br><br> |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Q**<br>aau<br><br> | **W**<br>aai<br><br> | **E**<br><br><br> | **R**<br>gw<br>ai | **T**<br>ap<br><br> | **Y**<br>yu<br>oe | **U**<br>ou<br><br> | **I**<br>kw<br>ei | **O**<br><br><br> | **P**<br>ok<br><br> |
-| **A**<br>aa<br><br> | **S**<br>aak<br>ak | **D**<br>at<br><br> | **F**<br>ek<br><br> | **G**<br>oeng<br><br> | **H**<br>oek<br><br> | **J**<br>ung<br><br> | **K**<br>uk<br><br> | **L**<br>ik<br><br> | **;**<br>ong<br><br> |
-| **Z**<br>aan<br><br> | **X**<br>aam<br><br> | **C**<br>aang<br>ang | **V**<br>an<br><br> | **B**<br>am<br><br> | **N**<br>yun<br>un | **M**<br>eon<br>on | **,**<br>eng<br>ing | **.**<br>in<br><br> | **/**<br>im<br><br> |
-### SQMPIV 三拼
-℞ `sqmpiv`
-| **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Q**<br>aa<br><br><br> | **W**<br><br><br><br> | **E**<br><br><br><br> | **R**<br>gw<br>eo<br>oe | **T**<br><br><br><br> | **Y**<br>yu<br><br><br> | **U**<br><br><br><br> | **I**<br>kw<br><br><br> | **O**<br><br><br><br> | **P**<br><br><br><br> |
-| **A**<br> | **S**<br> | **D**<br> | **F**<br> | **G**<br> | **H**<br> | **J**<br> | **K**<br> | **L**<br> | **;**<br> |
-| **Z**<br><br> | **X**<br><br> | **C**<br><br> | **V**<br>ng | **B**<br><br> | **N**<br><br> | **M**<br><br> | **,**<br><br> | **.**<br><br> | **/**<br><br> |
+<h3>SBPV 雙拼</h3>
+<ul><li>配方：℞ <code>sbpv</code></li></ul>
+<table>
+	<tr>
+		<td><b>1</b></td>
+		<td><b>2</b></td>
+		<td><b>3</b></td>
+		<td><b>4</b></td>
+		<td><b>5</b></td>
+		<td><b>6</b></td>
+		<td><b>7</b></td>
+		<td><b>8</b></td>
+		<td><b>9</b></td>
+		<td><b>0</b></td>
+	</tr>
+	<tr>
+		<td><b>Q</b><br/>aau<br/><br/><br/></td>
+		<td><b>W</b><br/>aai<br/><br/><br/></td>
+		<td><b>E</b><br/><br/><br/><br/></td>
+		<td><b>R</b><br/>gw<br/>eoi<br/>ui</td>
+		<td><b>T</b><br/>iu<br/><br/><br/></td>
+		<td><b>Y</b><br/>yu<br/>oe<br/><br/></td>
+		<td><b>U</b><br/>ou<br/><br/><br/></td>
+		<td><b>I</b><br/>kw<br/>ei<br/><br/></td>
+		<td><b>O</b><br/><br/><br/><br/></td>
+		<td><b>P</b><br/>oi<br/><br/><br/></td>
+	</tr>
+	<tr>
+		<td><b>A</b><br/>aa<br/><br/><br/><br/></td>
+		<td><b>S</b><br/>au<br/><br/><br/><br/></td>
+		<td><b>D</b><br/>ai<br/><br/><br/><br/></td>
+		<td><b>F</b><br/>at<br/>an<br/><br/><br/></td>
+		<td><b>G</b><br/>ap<br/>am<br/><br/><br/></td>
+		<td><b>H</b><br/>yut<br/>yun<br/>ut<br/>un</td>
+		<td><b>J</b><br/>eot<br/>eon<br/>ot<br/>on</td>
+		<td><b>K</b><br/>it<br/>in<br/><br/><br/></td>
+		<td><b>L</b><br/>ip<br/>im<br/><br/><br/></td>
+		<td><b>;</b><br/><br/><br/><br/><br/></td>
+	</tr>
+	<tr>
+		<td><b>Z</b><br/>aat<br/>aan<br/><br/><br/><br/></td>
+		<td><b>X</b><br/>aap<br/>aam<br/><br/><br/><br/></td>
+		<td><b>C</b><br/>aak<br/>aang<br/>ak<br/>ang<br/><br/></td>
+		<td><b>V</b><br/>ng<br/>ek<br/>eng<br/>ik<br/>ing</td>
+		<td><b>B</b><br/>oek<br/>oeng<br/><br/><br/><br/></td>
+		<td><b>N</b><br/>uk<br/>ung<br/><br/><br/><br/></td>
+		<td><b>M</b><br/>ok<br/>ong<br/><br/><br/><br/></td>
+		<td><b>,</b><br/><br/><br/><br/><br/><br/></td>
+		<td><b>.</b><br/><br/><br/><br/><br/><br/></td>
+		<td><b>/</b><br/><br/><br/><br/><br/><br/></td>
+	</tr>
+</table>
+<details>
+	<summary><h3>其他方案</h3></summary>
+	<h3>SGP, 雙拼</h3>
+	<ul><li>配方：℞ <code>sgp,</code></li></ul>
+	<table>
+		<tr>
+			<td><b>1</b><br/>aat<br/><br/></td>
+			<td><b>2</b><br/>aap<br/><br/></td>
+			<td><b>3</b><br/>au<br/><br/></td>
+			<td><b>4</b><br/>yut<br/>ut<br/></td>
+			<td><b>5</b><br/>eot<br/>ot</td>
+			<td><b>6</b><br/>eoi<br/>ui</td>
+			<td><b>7</b><br/>it<br/><br/></td>
+			<td><b>8</b><br/>iu<br/><br/></td>
+			<td><b>9</b><br/>oi<br/><br/></td>
+			<td><b>0</b><br/>ip<br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>Q</b><br/>aau<br/><br/></td>
+			<td><b>W</b><br/>aai<br/><br/></td>
+			<td><b>E</b><br/><br/><br/></td>
+			<td><b>R</b><br/>gw<br/>ai</td>
+			<td><b>T</b><br/>ap<br/><br/></td>
+			<td><b>Y</b><br/>yu<br/>oe</td>
+			<td><b>U</b><br/>ou<br/><br/></td>
+			<td><b>I</b><br/>kw<br/>ei</td>
+			<td><b>O</b><br/><br/><br/></td>
+			<td><b>P</b><br/>ok<br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>A</b><br/>aa<br/><br/></td>
+			<td><b>S</b><br/>aak<br/>ak</td>
+			<td><b>D</b><br/>at<br/><br/></td>
+			<td><b>F</b><br/>ek<br/><br/></td>
+			<td><b>G</b><br/>oeng<br/><br/></td>
+			<td><b>H</b><br/>oek<br/><br/></td>
+			<td><b>J</b><br/>ung<br/><br/></td>
+			<td><b>K</b><br/>uk<br/><br/></td>
+			<td><b>L</b><br/>ik<br/><br/></td>
+			<td><b>;</b><br/>ong<br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>Z</b><br/>aan<br/><br/></td>
+			<td><b>X</b><br/>aam<br/><br/></td>
+			<td><b>C</b><br/>aang<br/>ang</td>
+			<td><b>V</b><br/>an<br/><br/></td>
+			<td><b>B</b><br/>am<br/><br/></td>
+			<td><b>N</b><br/>yun<br/>un</td>
+			<td><b>M</b><br/>eon<br/>on</td>
+			<td><b>,</b><br/>eng<br/>ing</td>
+			<td><b>.</b><br/>in<br/><br/></td>
+			<td><b>/</b><br/>im<br/><br/></td>
+		</tr>
+	</table>
+	<h3>SQMPIV 三拼</h3>
+	<ul><li>配方：℞ <code>sqmpiv</code></li></ul>
+	<table>
+		<tr>
+			<td><b>1</b></td>
+			<td><b>2</b></td>
+			<td><b>3</b></td>
+			<td><b>4</b></td>
+			<td><b>5</b></td>
+			<td><b>6</b></td>
+			<td><b>7</b></td>
+			<td><b>8</b></td>
+			<td><b>9</b></td>
+			<td><b>0</b></td>
+		</tr>
+		<tr>
+			<td><b>Q</b><br/>aa<br/><br/><br/></td>
+			<td><b>W</b><br/><br/><br/><br/></td>
+			<td><b>E</b><br/><br/><br/><br/></td>
+			<td><b>R</b><br/>gw<br/>eo<br/>oe</td>
+			<td><b>T</b><br/><br/><br/><br/></td>
+			<td><b>Y</b><br/>yu<br/><br/><br/></td>
+			<td><b>U</b><br/><br/><br/><br/></td>
+			<td><b>I</b><br/>kw<br/><br/><br/></td>
+			<td><b>O</b><br/><br/><br/><br/></td>
+			<td><b>P</b><br/><br/><br/><br/></td>
+		</tr>
+		<tr>
+			<td><b>A</b><br/></td>
+			<td><b>S</b><br/></td>
+			<td><b>D</b><br/></td>
+			<td><b>F</b><br/></td>
+			<td><b>G</b><br/></td>
+			<td><b>H</b><br/></td>
+			<td><b>J</b><br/></td>
+			<td><b>K</b><br/></td>
+			<td><b>L</b><br/></td>
+			<td><b>;</b><br/></td>
+		</tr>
+		<tr>
+			<td><b>Z</b><br/><br/></td>
+			<td><b>X</b><br/><br/></td>
+			<td><b>C</b><br/><br/></td>
+			<td><b>V</b><br/>ng</td>
+			<td><b>B</b><br/><br/></td>
+			<td><b>N</b><br/><br/></td>
+			<td><b>M</b><br/><br/></td>
+			<td><b>,</b><br/><br/></td>
+			<td><b>.</b><br/><br/></td>
+			<td><b>/</b><br/><br/></td>
+		</tr>
+	</table>
+</details>
+
 ## 使用說明
 ### 聲調輸入
-配方：℞ `sb1pv3`<br>
+* 配方：℞ `sb1pv3`<br/>
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
 ### 注意
 - 如果要輸入以 [kuː]、[kʰuː] 音起頭嘅拼音（譬如 `gun`、`kut`），聲母要改串成 `gw`、`kw`。<details><summary>即係話，</summary>如果要打個「官」字，應該撳 <kbd>R</kbd><kbd>H</kbd> 而唔係 <kbd>G</kbd><kbd>H</kbd>。</details>
