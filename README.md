@@ -17,11 +17,11 @@
 | **Z**<br>aat<br>aan<br><br><br><br> | **X**<br>aap<br>aam<br><br><br><br> | **C**<br>aak<br>aang<br>ak<br>ang<br><br> | **V**<br>ng<br>ek<br>eng<br>ik<br>ing | **B**<br>oek<br>oeng<br><br><br><br> | **N**<br>uk<br>ung<br><br><br><br> | **M**<br>ok<br>ong<br><br><br><br> | **,**<br><br><br><br><br><br> | **.**<br><br><br><br><br><br> | **/**<br><br><br><br><br><br> |
 ### SGP, 雙拼
 ℞ `sgp,`
-| **1**<br>aau<br><br> | **2**<br>aai<br><br> | **3**<br>at<br><br> | **4**<br>au<br><br> | **5**<br>ai<br><br> | **6**<br>eot<br>ot | **7**<br>it<br><br> | **8**<br>iu<br><br> | **9**<br>oi<br><br> | **0**<br>ip<br><br> |
+| **1**<br>aau<br><br> | **2**<br>aai<br><br> | **3**<br>au<br><br> | **4**<br>yut<br>ut<br> | **5**<br>eot<br>ot | **6**<br>eoi<br>ui | **7**<br>it<br><br> | **8**<br>iu<br><br> | **9**<br>oi<br><br> | **0**<br>ip<br><br> |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Q**<br>aat<br><br> | **W**<br>aap<br><br> | **E**<br><br><br> | **R**<br>gw<br>ap | **T**<br>yut<br>ut | **Y**<br>yu<br>oe | **U**<br>ou<br><br> | **I**<br>kw<br>ei | **O**<br><br><br> | **P**<br>ok<br><br> |
-| **A**<br>aa<br><br> | **S**<br>aak<br>ak | **D**<br>eng<br><br> | **F**<br>ek<br><br> | **G**<br>oeng<br><br> | **H**<br>oek<br><br> | **J**<br>ung<br><br> | **K**<br>uk<br><br> | **L**<br>ik<br><br> | **;**<br>ong<br><br> |
-| **Z**<br>aan<br><br> | **X**<br>aam<br><br> | **C**<br>aang<br>ang | **V**<br>an<br><br> | **B**<br>am<br><br> | **N**<br>eon<br>on | **M**<br>yun<br>un | **,**<br>ing<br><br> | **.**<br>in<br><br> | **/**<br>im<br><br> |
+| **Q**<br>aat<br><br> | **W**<br>aap<br><br> | **E**<br><br><br> | **R**<br>gw<br>ai | **T**<br>ap<br><br> | **Y**<br>yu<br>oe | **U**<br>ou<br><br> | **I**<br>kw<br>ei | **O**<br><br><br> | **P**<br>ok<br><br> |
+| **A**<br>aa<br><br> | **S**<br>aak<br>ak | **D**<br>at<br><br> | **F**<br>ek<br><br> | **G**<br>oeng<br><br> | **H**<br>oek<br><br> | **J**<br>ung<br><br> | **K**<br>uk<br><br> | **L**<br>ik<br><br> | **;**<br>ong<br><br> |
+| **Z**<br>aan<br><br> | **X**<br>aam<br><br> | **C**<br>aang<br>ang | **V**<br>an<br><br> | **B**<br>am<br><br> | **N**<br>yun<br>un | **M**<br>eon<br>on | **,**<br>eng<br>ing | **.**<br>in<br><br> | **/**<br>im<br><br> |
 ### SQMPIV 三拼
 ℞ `sqmpiv`
 | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **0** |
