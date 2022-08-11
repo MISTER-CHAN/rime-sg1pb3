@@ -65,7 +65,7 @@ speller:
     - xform/(?<!o)e(?=\d)/E/
     - xform/k(?=u\d|ui|un\d|ut)|kw|(?<![aeou])e?i(?=\d)/I/
     - xform/g(?=u\d|ui|un\d|ut)|gw|ui|eoi/R/
-    - xform/^t|[ei]u/T/
+    - xform/^t|(?<!^)[ei]u/T/
     - xform/(?:yu|oe)(?=\d)/Y/
     - xform/(?<![aeio])o?u(?=\d)/U/
     - xform/o(?=\d)/O/
