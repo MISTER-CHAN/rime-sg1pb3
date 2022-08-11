@@ -73,13 +73,13 @@ speller:
     - xform/aa(?=\d)/A/
     - xform/s|au/S/
     - xform/d|ai/D/
-    - xform/f|(?<!a)a(?:n|t)(?=\d)/F/
+    - xform/f|(?<!a)a[nt](?=\d)/F/
     - xform/^g|(?<!a)a[mp]/G/
-    - xform/h|y?u(?:n|t)(?=\d)/H/
-    - xform/j|e?o(?:n|t)(?=\d)/J/
-    - xform/^k|i(?:n|t)(?=\d)/K/
+    - xform/h|y?u[nt](?=\d)/H/
+    - xform/j|e?o[nt](?=\d)/J/
+    - xform/^k|i[nt](?=\d)/K/
     - xform/l|(?<!^)[ei][mp]/L/
-    - xform/z|aa(?:n|t)(?=\d)/Z/
+    - xform/z|aa[nt](?=\d)/Z/
     - xform/aa[mp]/X/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?:i|(?<!o)e)(?:ng|k)/V/
