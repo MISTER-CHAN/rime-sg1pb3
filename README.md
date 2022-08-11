@@ -173,7 +173,44 @@
 * 配方：℞ `sb1pv3`  
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
 ### 注意
-- 如果要輸入以 [kuː]、[kʰuː] 音起頭嘅拼音（譬如 `gun`、`kut`），聲母要改串成 `gw`、`kw`。<details><summary>即係話，</summary>如果要打個「官」字，應該撳 <kbd>R</kbd><kbd>H</kbd> 而唔係 <kbd>G</kbd><kbd>H</kbd>。</details>
+- 對於拼音 `gu`、`gui`、`gun`、`ku`、`kui`、`kut`，聲母要串成 `gw`、`kw`。<details>
+	<summary>即係話，</summary>
+	如果要打個「官」字，應該撳 <kbd>R</kbd><kbd>H</kbd> 而唔係 <kbd>G</kbd><kbd>H</kbd>。
+	<h4>所有情況</h4>
+	<table>
+		<tr valign="top">
+			<th>聲＼韻</th>
+			<th><kbd>U</kbd></th>
+			<th><kbd>R</kbd></th>
+			<th><kbd>H</kbd></th>
+		</tr>
+		<tr valign="top">
+			<th><kbd>G</kbd></th>
+			<td><code>gou</code></td>
+			<td><code>geoi</code></td>
+			<td><code>gyut</code><br/><code>gyun</code></td>
+		</tr>
+		<tr valign="top">
+			<th><kbd>R</kbd></th>
+			<td><code>gu</code></td>
+			<td><code>gui</code></td>
+			<td><code>gun</code></td>
+		</tr>
+		<tr valign="top">
+			<th><kbd>K</kbd></th>
+			<td></td>
+			<td><code>keoi</code></td>
+			<td><code>kyut</code><br/><code>kyun</code></td>
+		</tr>
+		<tr valign="top">
+			<th><kbd>I</kbd></th>
+			<td><code>ku</code></td>
+			<td><code>kui</code></td>
+			<td><code>kut</code></td>
+		</tr>
+	</table>
+</details>
+
 ### 未聽講過雙拼？
 **雙拼**係拼音輸入法嘅一種編碼方案。用雙拼打字嘅時候只需要分別撳一下聲母同韻母總共兩個掣就可以打出任意一個漢字。詳見[維基百科](https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%8B%BC)。
 ### 示例
