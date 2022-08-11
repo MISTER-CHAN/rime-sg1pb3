@@ -66,12 +66,12 @@ speller:
     - xform/k(?=u\d|ui|un\d|ut)|kw|(?<![aeou])e?i(?=\d)/I/
     - xform/g(?=u\d|ui|un\d|ut)|gw|ui|eoi/R/
     - xform/^t|(?<!^)[ei]u/T/
-    - xform/(?:yu|oe)(?=\d)/Y/
+    - xform/(?:yu|(?<![csz])oe)(?=\d)/Y/
     - xform/(?<![aeio])o?u(?=\d)/U/
     - xform/o(?=\d)/O/
     - xform/^p|oi/P/
     - xform/aa(?=\d)/A/
-    - xform/s|au/S/
+    - xform/s(?!oe\d)|au/S/
     - xform/d|ai/D/
     - xform/f|(?<!a)a[nt](?=\d)/F/
     - xform/^g|(?<!a)a[mp]/G/
@@ -79,8 +79,9 @@ speller:
     - xform/j|e?o[nt](?=\d)/J/
     - xform/^k|i[nt](?=\d)/K/
     - xform/l|(?<!^)[ei][mp]/L/
-    - xform/z|aa[nt](?=\d)/Z/
-    - xform/aa[mp]/X/
+    - xform/z(?!oe\d)|aa[nt](?=\d)/Z/
+    - xform/[sz]|aa[mp]/X/
+    - xform/oe\d/Y/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?:i|(?<!o)e)(?:ng|k)/V/
     - xform/b|oe(?:ng|k)/B/
