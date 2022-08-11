@@ -1,10 +1,10 @@
 # SBPV 雙拼
 基於 Rime 中州韻輸入法引擎，依賴於 [`rime-cantonese`](https://github.com/rime/rime-cantonese)，採用[香港語言學學會粵語拼音方案](https://www.lshk.org/jyutping)。
 ## 簡介
-**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。<br/>
-![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)<br/>
-![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)<br/>
-![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)<br/>
+**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。  
+![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)  
+![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)  
+![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)  
 ![SB1PV3_oe](https://user-images.githubusercontent.com/18757881/183942963-ff47573e-133e-4b10-a12b-c487042816b1.jpg)
 ## 鍵位圖
 採用 QWERTY 佈局
@@ -170,7 +170,7 @@
 
 ## 使用說明
 ### 聲調輸入
-* 配方：℞ `sb1pv3`<br/>
+* 配方：℞ `sb1pv3`  
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟篩選聲調。
 ### 注意
 - 如果要輸入以 [kuː]、[kʰuː] 音起頭嘅拼音（譬如 `gun`、`kut`），聲母要改串成 `gw`、`kw`。<details><summary>即係話，</summary>如果要打個「官」字，應該撳 <kbd>R</kbd><kbd>H</kbd> 而唔係 <kbd>G</kbd><kbd>H</kbd>。</details>
