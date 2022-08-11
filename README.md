@@ -11,7 +11,7 @@
 <h3>SBPV 雙拼</h3>
 <ul><li>配方：℞ <code>sbpv</code></li></ul>
 <table>
-	<tr>
+	<tr valign="top">
 		<td><b>1</b></td>
 		<td><b>2</b></td>
 		<td><b>3</b></td>
@@ -23,41 +23,41 @@
 		<td><b>9</b></td>
 		<td><b>0</b></td>
 	</tr>
-	<tr>
-		<td><b>Q</b><br/>aau<br/><br/><br/></td>
-		<td><b>W</b><br/>aai<br/><br/><br/></td>
-		<td><b>E</b><br/><br/><br/><br/></td>
+	<tr valign="top">
+		<td><b>Q</b><br/>aau</td>
+		<td><b>W</b><br/>aai</td>
+		<td><b>E</b></td>
 		<td><b>R</b><br/>gw<br/>eoi<br/>ui</td>
-		<td><b>T</b><br/>iu<br/><br/><br/></td>
-		<td><b>Y</b><br/>yu<br/>oe<br/><br/></td>
-		<td><b>U</b><br/>ou<br/><br/><br/></td>
-		<td><b>I</b><br/>kw<br/>ei<br/><br/></td>
-		<td><b>O</b><br/><br/><br/><br/></td>
-		<td><b>P</b><br/>oi<br/><br/><br/></td>
+		<td><b>T</b><br/>iu</td>
+		<td><b>Y</b><br/>yu<br/>oe</td>
+		<td><b>U</b><br/>ou</td>
+		<td><b>I</b><br/>kw<br/>ei</td>
+		<td><b>O</b></td>
+		<td><b>P</b><br/>oi</td>
 	</tr>
-	<tr>
-		<td><b>A</b><br/>aa<br/><br/><br/><br/></td>
-		<td><b>S</b><br/>au<br/><br/><br/><br/></td>
-		<td><b>D</b><br/>ai<br/><br/><br/><br/></td>
-		<td><b>F</b><br/>at<br/>an<br/><br/><br/></td>
-		<td><b>G</b><br/>ap<br/>am<br/><br/><br/></td>
+	<tr valign="top">
+		<td><b>A</b><br/>aa</td>
+		<td><b>S</b><br/>au</td>
+		<td><b>D</b><br/>ai</td>
+		<td><b>F</b><br/>at<br/>an</td>
+		<td><b>G</b><br/>ap<br/>am</td>
 		<td><b>H</b><br/>yut<br/>yun<br/>ut<br/>un</td>
 		<td><b>J</b><br/>eot<br/>eon<br/>ot<br/>on</td>
-		<td><b>K</b><br/>it<br/>in<br/><br/><br/></td>
-		<td><b>L</b><br/>ip<br/>im<br/><br/><br/></td>
-		<td><b>;</b><br/><br/><br/><br/><br/></td>
+		<td><b>K</b><br/>it<br/>in</td>
+		<td><b>L</b><br/>ip<br/>im</td>
+		<td><b>;</b></td>
 	</tr>
-	<tr>
-		<td><b>Z</b><br/>aat<br/>aan<br/><br/><br/><br/></td>
-		<td><b>X</b><br/>aap<br/>aam<br/><br/><br/><br/></td>
-		<td><b>C</b><br/>aak<br/>aang<br/>ak<br/>ang<br/><br/></td>
+	<tr valign="top">
+		<td><b>Z</b><br/>aat<br/>aan</td>
+		<td><b>X</b><br/>aap<br/>aam</td>
+		<td><b>C</b><br/>aak<br/>aang<br/>ak<br/>ang</td>
 		<td><b>V</b><br/>ng<br/>ek<br/>eng<br/>ik<br/>ing</td>
-		<td><b>B</b><br/>oek<br/>oeng<br/><br/><br/><br/></td>
-		<td><b>N</b><br/>uk<br/>ung<br/><br/><br/><br/></td>
-		<td><b>M</b><br/>ok<br/>ong<br/><br/><br/><br/></td>
-		<td><b>,</b><br/><br/><br/><br/><br/><br/></td>
-		<td><b>.</b><br/><br/><br/><br/><br/><br/></td>
-		<td><b>/</b><br/><br/><br/><br/><br/><br/></td>
+		<td><b>B</b><br/>oek<br/>oeng</td>
+		<td><b>N</b><br/>uk<br/>ung</td>
+		<td><b>M</b><br/>ok<br/>ong</td>
+		<td><b>,</b></td>
+		<td><b>.</b></td>
+		<td><b>/</b></td>
 	</tr>
 </table>
 <details>
@@ -65,59 +65,59 @@
 	<h3>SGP, 雙拼</h3>
 	<ul><li>配方：℞ <code>sgp,</code></li></ul>
 	<table>
-		<tr>
-			<td><b>1</b><br/>aat<br/><br/></td>
-			<td><b>2</b><br/>aap<br/><br/></td>
-			<td><b>3</b><br/>au<br/><br/></td>
-			<td><b>4</b><br/>yut<br/>ut<br/></td>
+		<tr valign="top">
+			<td><b>1</b><br/>aat</td>
+			<td><b>2</b><br/>aap</td>
+			<td><b>3</b><br/>au</td>
+			<td><b>4</b><br/>yut<br/>ut</td>
 			<td><b>5</b><br/>eot<br/>ot</td>
 			<td><b>6</b><br/>eoi<br/>ui</td>
-			<td><b>7</b><br/>it<br/><br/></td>
-			<td><b>8</b><br/>iu<br/><br/></td>
-			<td><b>9</b><br/>oi<br/><br/></td>
-			<td><b>0</b><br/>ip<br/><br/></td>
+			<td><b>7</b><br/>it</td>
+			<td><b>8</b><br/>iu</td>
+			<td><b>9</b><br/>oi</td>
+			<td><b>0</b><br/>ip</td>
 		</tr>
-		<tr>
-			<td><b>Q</b><br/>aau<br/><br/></td>
-			<td><b>W</b><br/>aai<br/><br/></td>
-			<td><b>E</b><br/><br/><br/></td>
+		<tr valign="top">
+			<td><b>Q</b><br/>aau</td>
+			<td><b>W</b><br/>aai</td>
+			<td><b>E</b></td>
 			<td><b>R</b><br/>gw<br/>ai</td>
-			<td><b>T</b><br/>ap<br/><br/></td>
+			<td><b>T</b><br/>ap</td>
 			<td><b>Y</b><br/>yu<br/>oe</td>
-			<td><b>U</b><br/>ou<br/><br/></td>
+			<td><b>U</b><br/>ou</td>
 			<td><b>I</b><br/>kw<br/>ei</td>
-			<td><b>O</b><br/><br/><br/></td>
-			<td><b>P</b><br/>ok<br/><br/></td>
+			<td><b>O</b></td>
+			<td><b>P</b><br/>ok</td>
 		</tr>
-		<tr>
-			<td><b>A</b><br/>aa<br/><br/></td>
+		<tr valign="top">
+			<td><b>A</b><br/>aa</td>
 			<td><b>S</b><br/>aak<br/>ak</td>
-			<td><b>D</b><br/>at<br/><br/></td>
-			<td><b>F</b><br/>ek<br/><br/></td>
-			<td><b>G</b><br/>oeng<br/><br/></td>
-			<td><b>H</b><br/>oek<br/><br/></td>
-			<td><b>J</b><br/>ung<br/><br/></td>
-			<td><b>K</b><br/>uk<br/><br/></td>
-			<td><b>L</b><br/>ik<br/><br/></td>
-			<td><b>;</b><br/>ong<br/><br/></td>
+			<td><b>D</b><br/>at</td>
+			<td><b>F</b><br/>ek</td>
+			<td><b>G</b><br/>oeng</td>
+			<td><b>H</b><br/>oek</td>
+			<td><b>J</b><br/>ung</td>
+			<td><b>K</b><br/>uk</td>
+			<td><b>L</b><br/>ik</td>
+			<td><b>;</b><br/>ong</td>
 		</tr>
-		<tr>
-			<td><b>Z</b><br/>aan<br/><br/></td>
-			<td><b>X</b><br/>aam<br/><br/></td>
+		<tr valign="top">
+			<td><b>Z</b><br/>aan</td>
+			<td><b>X</b><br/>aam</td>
 			<td><b>C</b><br/>aang<br/>ang</td>
-			<td><b>V</b><br/>an<br/><br/></td>
-			<td><b>B</b><br/>am<br/><br/></td>
+			<td><b>V</b><br/>an</td>
+			<td><b>B</b><br/>am</td>
 			<td><b>N</b><br/>yun<br/>un</td>
 			<td><b>M</b><br/>eon<br/>on</td>
 			<td><b>,</b><br/>eng<br/>ing</td>
-			<td><b>.</b><br/>in<br/><br/></td>
-			<td><b>/</b><br/>im<br/><br/></td>
+			<td><b>.</b><br/>in</td>
+			<td><b>/</b><br/>im</td>
 		</tr>
 	</table>
 	<h3>SQMPIV 三拼</h3>
 	<ul><li>配方：℞ <code>sqmpiv</code></li></ul>
 	<table>
-		<tr>
+		<tr valign="top">
 			<td><b>1</b></td>
 			<td><b>2</b></td>
 			<td><b>3</b></td>
@@ -129,41 +129,41 @@
 			<td><b>9</b></td>
 			<td><b>0</b></td>
 		</tr>
-		<tr>
-			<td><b>Q</b><br/>aa<br/><br/><br/></td>
-			<td><b>W</b><br/><br/><br/><br/></td>
-			<td><b>E</b><br/><br/><br/><br/></td>
+		<tr valign="top">
+			<td><b>Q</b><br/>aa</td>
+			<td><b>W</b></td>
+			<td><b>E</b></td>
 			<td><b>R</b><br/>gw<br/>eo<br/>oe</td>
-			<td><b>T</b><br/><br/><br/><br/></td>
-			<td><b>Y</b><br/>yu<br/><br/><br/></td>
-			<td><b>U</b><br/><br/><br/><br/></td>
-			<td><b>I</b><br/>kw<br/><br/><br/></td>
-			<td><b>O</b><br/><br/><br/><br/></td>
-			<td><b>P</b><br/><br/><br/><br/></td>
+			<td><b>T</b></td>
+			<td><b>Y</b><br/>yu</td>
+			<td><b>U</b></td>
+			<td><b>I</b><br/>kw</td>
+			<td><b>O</b></td>
+			<td><b>P</b></td>
 		</tr>
-		<tr>
-			<td><b>A</b><br/></td>
-			<td><b>S</b><br/></td>
-			<td><b>D</b><br/></td>
-			<td><b>F</b><br/></td>
-			<td><b>G</b><br/></td>
-			<td><b>H</b><br/></td>
-			<td><b>J</b><br/></td>
-			<td><b>K</b><br/></td>
-			<td><b>L</b><br/></td>
-			<td><b>;</b><br/></td>
+		<tr valign="top">
+			<td><b>A</b></td>
+			<td><b>S</b></td>
+			<td><b>D</b></td>
+			<td><b>F</b></td>
+			<td><b>G</b></td>
+			<td><b>H</b></td>
+			<td><b>J</b></td>
+			<td><b>K</b></td>
+			<td><b>L</b></td>
+			<td><b>;</b></td>
 		</tr>
-		<tr>
-			<td><b>Z</b><br/><br/></td>
-			<td><b>X</b><br/><br/></td>
-			<td><b>C</b><br/><br/></td>
+		<tr valign="top">
+			<td><b>Z</b></td>
+			<td><b>X</b></td>
+			<td><b>C</b></td>
 			<td><b>V</b><br/>ng</td>
-			<td><b>B</b><br/><br/></td>
-			<td><b>N</b><br/><br/></td>
-			<td><b>M</b><br/><br/></td>
-			<td><b>,</b><br/><br/></td>
-			<td><b>.</b><br/><br/></td>
-			<td><b>/</b><br/><br/></td>
+			<td><b>B</b></td>
+			<td><b>N</b></td>
+			<td><b>M</b></td>
+			<td><b>,</b></td>
+			<td><b>.</b></td>
+			<td><b>/</b></td>
 		</tr>
 	</table>
 </details>
