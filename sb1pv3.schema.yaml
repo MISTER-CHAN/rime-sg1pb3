@@ -11,7 +11,8 @@ schema:
     粵語雙拼
     採用香港語言學學會粵語拼音方案
   dependencies:
-    - stroke
+    - cangjie5
+    - wubi86
 
 switches:
   - name: ascii_mode
@@ -39,21 +40,25 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@cangjie5
+    - affix_segmentor@wubi86
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    - table_translator@cangjie5
+    - table_translator@wubi86
   filters:
     - simplifier
     - simplifier@emoji_suggestion
     - uniquifier
     - charset_filter@gbk
+    - reverse_lookup_filter@jyut6ping3_reverse_lookup
 
 speller:
-  alphabet: abcdefghijklmnopqrstuvwxyz
+  alphabet: abcdefghijklmnopqrstuvwxyz123456789
   initials: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
@@ -99,20 +104,39 @@ translator:
   preedit_format:
     - xlit/abcdefghijklmnopqrstuvwxyz/ABCDEFGHIJKLMNOPQRSTUVWXYZ/
 
-reverse_lookup:
-  dictionary: stroke
-  enable_completion: true
+cangjie5:
+  tag: cangjie5
+  dictionary: cangjie5
+  enable_user_dict: false
   prefix: "`"
-  suffix: "'"
-  tips: 〔筆畫〕
+  suffix: ";"
+  tips: 〔倉頡五代〕
   preedit_format:
-    - xform/`(.+)/$1/
-    - xlit/hspnz/一丨丿丶乙/
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
+
+wubi86:
+  tag: wubi86
+  dictionary: wubi86
+  enable_user_dict: false
+  prefix: "y"
+  suffix: ";"
+  tips: 〔五笔〕
+  
+jyut6ping3_reverse_lookup:
+  tags: [ cangjie5, wubi86 ]
+  overwrite_comment: false
+  dictionary: jyut6ping3
 
 emoji_suggestion:
   opencc_config: emoji.json
   option_name: emoji_suggestion
-  tips: all
+  tips: 
 
 punctuator:
   import_preset: symbols_cantonese
@@ -123,4 +147,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^`[hspnz]*'?$"
+    cangjie5: "^`[a-z]*;?$"
+    wubi86: "^y[a-z]*;?$"
