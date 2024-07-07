@@ -109,7 +109,7 @@ cangjie5:
   dictionary: cangjie5
   enable_user_dict: false
   prefix: "`"
-  suffix: ";"
+  suffix: "'"
   tips: 〔倉頡五代〕
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
@@ -125,7 +125,7 @@ wubi86:
   dictionary: wubi86
   enable_user_dict: false
   prefix: "y"
-  suffix: ";"
+  suffix: "'"
   tips: 〔五笔〕
   
 jyut6ping3_reverse_lookup:
@@ -147,5 +147,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    cangjie5: "^`[a-z]*;?$"
-    wubi86: "^y[a-z]*;?$"
+    cangjie5: "^`[a-z]*'?$"
+    wubi86: "^y[a-z]*'?$"
