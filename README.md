@@ -1,15 +1,14 @@
-# SBPV 雙拼
+# SGPB 雙拼
 基於 Rime 中州韻輸入法引擎，依賴於 [`rime-cantonese`](https://github.com/rime/rime-cantonese)，採用[香港語言學學會粵語拼音方案](https://www.lshk.org/jyutping)。
 ## 簡介
-**SBPV 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。  
-![SB1PV3_ap](https://user-images.githubusercontent.com/18757881/183942823-f67a3bc3-7fc8-4603-8e5c-d559bf789697.jpg)  
+**SGPB 雙拼**係一種粵語拼音編碼方案，擁有**淸楚易記嘅鍵位**。  
 ![SB1PV3_gw](https://user-images.githubusercontent.com/18757881/183942890-461b2a9f-e11c-4717-839a-daf30521fca9.jpg)  
 ![SB1PV3_yun](https://user-images.githubusercontent.com/18757881/183942940-b350a01f-7640-412f-8ccf-30344f32aa19.jpg)  
 ![SB1PV3_oe](https://user-images.githubusercontent.com/18757881/183942963-ff47573e-133e-4b10-a12b-c487042816b1.jpg)
 ## 鍵位圖
 採用 QWERTY 佈局
-<h3>SBPV 雙拼</h3>
-<ul><li>配方：℞ <code>sbpv</code></li></ul>
+<h3>SGPB 雙拼</h3>
+<ul><li>配方：℞ <code>sgpb</code></li></ul>
 <table>
 	<tr valign="top">
 		<td><b>1</b></td>
@@ -39,8 +38,8 @@
 		<td><b>A</b><br/>aa</td>
 		<td><b>S</b><br/>au</td>
 		<td><b>D</b><br/>ai</td>
-		<td><b>F</b><br/>at<br/>an</td>
-		<td><b>G</b><br/>ap<br/>am</td>
+		<td><b>F</b><br/>aap<br/>aam</td>
+		<td><b>G</b><br/>oek<br/>oeng</td>
 		<td><b>H</b><br/>yut<br/>yun<br/>ut<br/>un</td>
 		<td><b>J</b><br/>eot<br/>eon<br/>ot<br/>on</td>
 		<td><b>K</b><br/>it<br/>in</td>
@@ -49,10 +48,10 @@
 	</tr>
 	<tr valign="top">
 		<td><b>Z</b><br/>aat<br/>aan</td>
-		<td><b>X</b><br/>aap<br/>aam</td>
+		<td><b>X</b><br/>at<br/>an</td>
 		<td><b>C</b><br/>aak<br/>aang<br/>ak<br/>ang</td>
-		<td><b>V</b><br/>ng<br/>ek<br/>eng<br/>ik<br/>ing</td>
-		<td><b>B</b><br/>oek<br/>oeng</td>
+		<td><b>V</b><br/>ng<br/>ap<br/>am</td>
+		<td><b>B</b><br/>ek<br/>eng<br/>ik<br/>ing</td>
 		<td><b>N</b><br/>uk<br/>ung</td>
 		<td><b>M</b><br/>ok<br/>ong</td>
 		<td><b>,</b></td>
@@ -170,7 +169,7 @@
 
 ## 使用說明
 ### 聲調輸入
-* 配方：℞ `sb1pv3`  
+* 配方：℞ `sg1pb3`  
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd>～<kbd>9</kbd> 嚟用聲調篩選。
 ### 注意
 - 對於拼音 `gu`、`gui`、`gun`、`ku`、`kui`、`kut`，聲母要串成 `gw`、`kw`。<details>
@@ -218,4 +217,4 @@
 | 例句 | 廣東人講廣東話，唔識尊重返鄉下。 |
 |:---|:---|
 | 粵拼全拼 | `gwongdungjangonggwongdungwaa，msikzyunzungfaanhoenghaa。` |
-| SBPV 雙拼 | `rmdnjfgmrmdnwa，msvzhznfzhbha。` |
+| SBPV 雙拼 | `rmdnjxgmrmdnwa，msbzhznfzhgha。` |
