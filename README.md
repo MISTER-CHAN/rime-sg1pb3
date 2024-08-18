@@ -61,54 +61,54 @@
 </table>
 <details>
 	<summary><h3>其他方案</h3></summary>
-	<h3>SGP, 雙拼</h3>
-	<ul><li>配方：℞ <code>sgp,</code></li></ul>
+	<h3>SFPN 雙拼</h3>
+	<ul><li>配方：℞ <code>sfpn</code></li></ul>
 	<table>
 		<tr valign="top">
-			<td><b>1</b><br/>aat</td>
-			<td><b>2</b><br/>aap</td>
-			<td><b>3</b><br/>au</td>
-			<td><b>4</b><br/>yut<br/>ut</td>
-			<td><b>5</b><br/>eot<br/>ot</td>
-			<td><b>6</b><br/>eoi<br/>ui</td>
+			<td><b>1</b><br/>au</td>
+			<td><b>2</b><br/>ai</td>
+			<td><b>3</b><br/>ap</td>
+			<td><b>4</b><br/>ek</td>
+			<td><b>5</b><br/>yut<br/>ut</td>
+			<td><b>6</b><br/>eot<br/>ot</td>
 			<td><b>7</b><br/>it</td>
-			<td><b>8</b><br/>iu</td>
-			<td><b>9</b><br/>oi</td>
+			<td><b>8</b><br/>eoi<br/>ui</td>
+			<td><b>9</b><br/>iu</td>
 			<td><b>0</b><br/>ip</td>
 		</tr>
 		<tr valign="top">
-			<td><b>Q</b><br/>aau</td>
-			<td><b>W</b><br/>aai</td>
+			<td><b>Q</b><br/>aat</td>
+			<td><b>W</b><br/>at</td>
 			<td><b>E</b></td>
-			<td><b>R</b><br/>gw<br/>ai</td>
-			<td><b>T</b><br/>ap</td>
+			<td><b>R</b><br/>gw<br/>aai</td>
+			<td><b>T</b><br/>aap</td>
 			<td><b>Y</b><br/>yu<br/>oe</td>
 			<td><b>U</b><br/>ou</td>
 			<td><b>I</b><br/>kw<br/>ei</td>
 			<td><b>O</b></td>
-			<td><b>P</b><br/>ok</td>
+			<td><b>P</b><br/>oi</td>
 		</tr>
 		<tr valign="top">
 			<td><b>A</b><br/>aa</td>
-			<td><b>S</b><br/>aak<br/>ak</td>
-			<td><b>D</b><br/>at</td>
-			<td><b>F</b><br/>ek</td>
-			<td><b>G</b><br/>oeng</td>
-			<td><b>H</b><br/>oek</td>
-			<td><b>J</b><br/>ung</td>
+			<td><b>S</b><br/>aau</td>
+			<td><b>D</b><br/>aak<br/>ak</td>
+			<td><b>F</b><br/>oeng</td>
+			<td><b>G</b><br/>yun<br/>un</td>
+			<td><b>H</b><br/>eon<br/>on</td>
+			<td><b>J</b><br/>oek</td>
 			<td><b>K</b><br/>uk</td>
 			<td><b>L</b><br/>ik</td>
-			<td><b>;</b><br/>ong</td>
+			<td><b>;</b><br/>ok</td>
 		</tr>
 		<tr valign="top">
 			<td><b>Z</b><br/>aan</td>
 			<td><b>X</b><br/>aam</td>
-			<td><b>C</b><br/>aang<br/>ang</td>
-			<td><b>V</b><br/>an</td>
+			<td><b>C</b><br/>an</td>
+			<td><b>V</b><br/>ng<br/>aang<br/>ang</td>
 			<td><b>B</b><br/>am</td>
-			<td><b>N</b><br/>yun<br/>un</td>
-			<td><b>M</b><br/>eon<br/>on</td>
-			<td><b>,</b><br/>eng<br/>ing</td>
+			<td><b>N</b><br/>eng<br/>ing</td>
+			<td><b>M</b><br/>ung</td>
+			<td><b>,</b><br/>ong</td>
 			<td><b>.</b><br/>in</td>
 			<td><b>/</b><br/>im</td>
 		</tr>
