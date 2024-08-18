@@ -80,8 +80,8 @@
 			<td><b>Q</b><br/>aat</td>
 			<td><b>W</b><br/>at</td>
 			<td><b>E</b></td>
-			<td><b>R</b><br/>gw<br/>aai</td>
-			<td><b>T</b><br/>aap</td>
+			<td><b>R</b><br/>gw<br/>aap</td>
+			<td><b>T</b><br/>oeng</td>
 			<td><b>Y</b><br/>yu<br/>oe</td>
 			<td><b>U</b><br/>ou</td>
 			<td><b>I</b><br/>kw<br/>ei</td>
@@ -91,8 +91,8 @@
 		<tr valign="top">
 			<td><b>A</b><br/>aa</td>
 			<td><b>S</b><br/>aau</td>
-			<td><b>D</b><br/>aak<br/>ak</td>
-			<td><b>F</b><br/>oeng</td>
+			<td><b>D</b><br/>aai</td>
+			<td><b>F</b><br/>aak<br/>ak</td>
 			<td><b>G</b><br/>yun<br/>un</td>
 			<td><b>H</b><br/>eon<br/>on</td>
 			<td><b>J</b><br/>oek</td>
