@@ -61,8 +61,8 @@
 </table>
 <details>
 	<summary><h3>其他方案</h3></summary>
-	<h3>SFPN 雙拼</h3>
-	<ul><li>配方：℞ <code>sfpn</code></li></ul>
+	<h3>STPN 雙拼</h3>
+	<ul><li>配方：℞ <code>stpn</code></li></ul>
 	<table>
 		<tr valign="top">
 			<td><b>1</b><br/>au</td>
