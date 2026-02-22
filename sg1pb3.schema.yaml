@@ -121,7 +121,7 @@ wubi86:
   tag: wubi86
   dictionary: wubi86
   enable_user_dict: false
-  prefix: "x"
+  prefix: "``"
   suffix: "'"
   tips: 〔五笔〕
   
@@ -146,4 +146,4 @@ recognizer:
   patterns:
     punct: "^/(?:[0-9A-Za-z]+)$"
     cangjie5: "^`[a-z]*'?$"
-    wubi86: "^x[a-z]*'?$"
+    wubi86: "^``[a-z]*'?$"
