@@ -6,7 +6,7 @@ schema:
   name: "SGPB 雙拼"
   version: '1.0'
   author:
-    - MISTER_CHAN <mister.chan@qq.com>
+    - MISTER_CHAN
   description: |
     粵語雙拼
     採用香港語言學學會粵語拼音方案
@@ -68,33 +68,33 @@ speller:
     - xform/aau/Q/
     - xform/^w|aai/W/
     - xform/(?<!o)e(?=\d)/E/
-    - xform/k(?=u\d|ui|un\d|ut)|kw|(?<![aeou])e?i(?=\d)/I/
-    - xform/g(?=u\d|ui|un\d|ut)|gw|ui|eoi/R/
-    - xform/^t|(?<!^)[ei]u/T/
-    - xform/(?:yu|(?<!^)oe)(?=\d)/Y/
-    - xform/(?<![aeio])o?u(?=\d)/U/
+    - xform/g(?=u[int]?\d)|gw|y?u[nt](?=\d)/R/
+    - xform/^t|e?o[nt](?=\d)/T/
+    - xform/k(?=u[int]?\d)|kw|(?:j?yu|oe)(?=\d)/Y/
+    - xform/(?<![aei])o?u(?=\d)/U/
+    - xform/j?(?<![aou])e?i(?=\d)/I/
     - xform/o(?=\d)/O/
-    - xform/^p|oi/P/
+    - xform/^p|(?<!e)oi/P/
     - xform/aa(?=\d)/A/
-    - xform/s(?!oe\d)|au/S/
-    - xform/d|ai/D/
-    - xform/f|aa[mp]/F/
+    - xform/s|(?<!a)a[nt](?=\d)/S/
+    - xform/d|au/D/
+    - xform/f|ai/F/
     - xform/^g|(?<!^)oe(?:ng|k)/G/
-    - xform/h|y?u[nt](?=\d)/H/
-    - xform/j|e?o[nt](?=\d)/J/
-    - xform/^k|(?<!^)i[nt](?=\d)/K/
+    - xform/h|j?i[nt](?=\d)/H/
+    - xform/j(?![ei][untk])|ui|eoi/J/
+    - xform/^k|j?[ei]u/K/
     - xform/l|(?<!^)[ei][mp]/L/
-    - xform/z(?!oe\d)|aa[nt](?=\d)/Z/
-    - xform/(?<!a)a[nt](?=\d)/X/
+    - xform/z|aa[nt](?=\d)/Z/
+    - xform/aa[mp]/X/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?<!a)a[mp]/V/
-    - xform/b|(?<!^)(?:i|(?<!o)e)(?:ng|k)/B/
+    - xform/b|j?(?:i|(?<!o)e)(?:ng|k)/B/
     - xform/^n|u(?:ng|k)/N/
     - xform/^m|o(?:ng|k)/M/
     - erase/^.*[a-z].*$/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
     - derive/\d//
-    - abbrev/^..+$/./
+    - abbrev/^(.).+$/$1/
 
 translator:
   dictionary: jyut6ping3
@@ -121,7 +121,7 @@ wubi86:
   tag: wubi86
   dictionary: wubi86
   enable_user_dict: false
-  prefix: "y"
+  prefix: "x"
   suffix: "'"
   tips: 〔五笔〕
   
@@ -146,4 +146,4 @@ recognizer:
   patterns:
     punct: "^/(?:[0-9A-Za-z]+)$"
     cangjie5: "^`[a-z]*'?$"
-    wubi86: "^y[a-z]*'?$"
+    wubi86: "^x[a-z]*'?$"
