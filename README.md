@@ -83,9 +83,9 @@
 			<td><b>E</b></td>
 			<td><b>R</b><br/>gw<br/>eo<br/>oe</td>
 			<td><b>T</b></td>
-			<td><b>Y</b><br/>yu</td>
+			<td><b>Y</b><br/>kw<br/>yu</td>
 			<td><b>U</b></td>
-			<td><b>I</b><br/>kw</td>
+			<td><b>I</b></td>
 			<td><b>O</b></td>
 			<td><b>P</b></td>
 		</tr>
@@ -165,4 +165,4 @@
 | 例句 | 廣東人講廣東話，唔識尊重返鄉下。 |
 |:---|:---|
 | 粵拼全拼 | `gwongdungjangonggwongdungwaa，msikzyunzungfaanhoenghaa。` |
-| SBPV 雙拼 | `rmdnjsgmrmdnwa，msbzrznfzhgha。` |
+| SGPB 雙拼 | `rmdnjsgmrmdnwa，msbzrznfzhgha。` |
