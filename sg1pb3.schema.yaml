@@ -3,7 +3,7 @@
 
 schema:
   schema_id: sg1pb3
-  name: "SGPB 雙拼"
+  name: SG1PB3 雙拼
   version: '1.0'
   author:
     - MISTER_CHAN
@@ -20,10 +20,10 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: ascii_punct
-    states: [ "。，", "．，" ]
   - name: simplification
     states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
   - name: emoji_suggestion
     reset: 1
 
