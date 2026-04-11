@@ -1,0 +1,14 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sg1pb3.schema:/
+
+schema:
+  __include: sg1pb3.schema:/schema
+  schema_id: sgqpbe
+  name: SGQPBE 雙拼
+
+__patch:
+  speller/alphabet: abcdefghijklmnopqrstuvwxyz
+  speller/algebra/@next: xlit/123456789/qwertyuio/
+  translator/prism: sgqpbe
