@@ -29,9 +29,9 @@
 		<td><b>E</b></td>
 		<td><b>R</b><br/>gw<br/>yut<br/>yun<br/>ut<br/>un</td>
 		<td><b>T</b><br/>eot<br/>eon<br/>ot<br/>on</td>
-		<td><b>Y</b><br/>kw<br/>yu<br/>jyu<br/>oe</td>
+		<td><b>Y</b><br/>yu<br/>jyu<br/>oe</td>
 		<td><b>U</b><br/>ou</td>
-		<td><b>I</b><br/>ei<br/>ji</td>
+		<td><b>I</b><br/>kw<br/>ei<br/>ji</td>
 		<td><b>O</b></td>
 		<td><b>P</b><br/>oi</td>
 	</tr>
