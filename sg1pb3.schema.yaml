@@ -70,7 +70,9 @@ speller:
     - xform/(?<!o)e(?=\d)/E/
     - xform/g(?=u[int]?\d)|gw|y?u[nt](?=\d)/R/
     - xform/^t|e?o[nt](?=\d)/T/
-    - xform/k(?=u[int]?\d)|kw|(?:j?yu|oe)(?=\d)/Y/
+    - xform/k(?=u[int]?\d)|kw/Y/
+    - derive/Y/I/
+    - xform/(?:j?yu|oe)(?=\d)/Y/
     - xform/(?<![aei])o?u(?=\d)/U/
     - xform/j?(?<![aou])e?i(?=\d)/I/
     - xform/o(?=\d)/O/
