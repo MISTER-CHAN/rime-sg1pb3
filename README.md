@@ -151,7 +151,7 @@
 			<td><code>keoi</code></td>
 		</tr>
 		<tr valign="top">
-			<th><kbd>Y</kbd></th>
+			<th><kbd>I</kbd></th>
 			<td><code>ku</code></td>
 			<td><code>kut</code></td>
 			<td><code>kui</code></td>
