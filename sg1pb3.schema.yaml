@@ -88,7 +88,7 @@ speller:
     - xform/aa[mp]/X/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?<!a)a[mp]/V/
-    - xform/b|j?(?:i|(?<!o)e)(?:ng|k)/B/
+    - xform/b|j?(?:(?<!o)e|i)(?:ng|k)/B/
     - xform/^n|u(?:ng|k)/N/
     - xform/^m|o(?:ng|k)/M/
     - erase/^.*[a-z].*$/
