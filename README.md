@@ -130,7 +130,7 @@
 			<th>聲＼韻</th>
 			<th><kbd>U</kbd></th>
 			<th><kbd>R</kbd></th>
-			<th><kbd>T</kbd></th>
+			<th><kbd>J</kbd></th>
 		</tr>
 		<tr valign="top">
 			<th><kbd>G</kbd></th>
