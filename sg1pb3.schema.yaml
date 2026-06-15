@@ -68,12 +68,12 @@ speller:
     - xform/(?<=[ptk])6/9/
     - xform/aau/Q/
     - xform/^w|aai/W/
+    - xform/k(?=u[int]?\d)|kw|j?(?<![aou])e?i(?=\d)/I/
+    - xform/g(?=u[int]?\d)|gw|y?u[nt](?=\d)/R/
     - xform/(?<!o)e(?=\d)/E/
     - xform/^t|e?o[nt](?=\d)/T/
     - xform/(?:j?yu|oe)(?=\d)/Y/
     - xform/(?<![aei])o?u(?=\d)/U/
-    - xform/k(?=u[int]?\d)|kw|j?(?<![aou])e?i(?=\d)/I/
-    - xform/g(?=u[int]?\d)|gw|y?u[nt](?=\d)/R/
     - xform/o(?=\d)/O/
     - xform/^p|(?<!e)oi/P/
     - xform/aa(?=\d)/A/
