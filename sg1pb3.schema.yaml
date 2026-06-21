@@ -66,30 +66,34 @@ speller:
     - xform/(?<=[ptk])1/7/
     - xform/(?<=[ptk])3/8/
     - xform/(?<=[ptk])6/9/
+    - xform/(?<=[gk])u(?=[int]?\d)/wu/
     - xform/aau/Q/
     - xform/^w|aai/W/
-    - xform/k(?=u[int]?\d)|kw|j?(?<![aou])e?i(?=\d)/I/
-    - xform/g(?=u[int]?\d)|gw|y?u[nt](?=\d)/R/
+    - xform/jyun/R/
+    - xform/gw|y?u[nt](?=\d)/R/
     - xform/(?<!o)e(?=\d)/E/
     - xform/^t|e?o[nt](?=\d)/T/
     - xform/(?:j?yu|oe)(?=\d)/Y/
-    - xform/(?<![aei])o?u(?=\d)/U/
+    - xform/kw|(?<![aeiy])o?u(?=\d)/U/
+    - xform/si(?=\d)/S/
+    - xform/j?(?<![aou])e?i(?=\d)/I/
     - xform/o(?=\d)/O/
     - xform/^p|(?<!e)oi/P/
     - xform/aa(?=\d)/A/
-    - xform/s|(?<!a)a[nt](?=\d)/S/
+    - xform/jat/J/
+    - xform/s|(?<=[^a])a[nt](?=\d)/S/
     - xform/d|au/D/
     - xform/f|ai/F/
     - xform/^g|(?<!^)oe(?:ng|k)/G/
-    - xform/h|j?i[nt](?=\d)/H/
-    - xform/j(?![ei][untk])|ui|eoi/J/
-    - xform/^k|j?[ei]u/K/
+    - xform/h|j?in(?=\d)|it/H/
+    - xform/j(?![ei][nu]|yu\d)|ui|eoi/J/
+    - xform/^k|j?iu|eu/K/
     - xform/l|(?<!^)[ei][mp]/L/
     - xform/z|aa[nt](?=\d)/Z/
     - xform/aa[mp]/X/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?<!a)a[mp]/V/
-    - xform/b|j?(?:(?<!o)e|i)(?:ng|k)/B/
+    - xform/b|j[ei]ng|(?:(?<!o)e|i)(?:ng|k)/B/
     - xform/^n|u(?:ng|k)/N/
     - xform/^m|o(?:ng|k)/M/
     - erase/^.*[a-z].*$/
