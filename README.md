@@ -27,22 +27,22 @@
 		<td><b>Q</b><br/>aau</td>
 		<td><b>W</b><br/>aai</td>
 		<td><b>E</b></td>
-		<td><b>R</b><br/>gw<br/>yut<br/>yun<br/>ut<br/>un</td>
+		<td><b>R</b><br/>gw<br/>yut<br/>yun<br/>ut<br/>un<br/>jyun</td>
 		<td><b>T</b><br/>eot<br/>eon<br/>ot<br/>on</td>
 		<td><b>Y</b><br/>yu<br/>jyu<br/>oe</td>
-		<td><b>U</b><br/>ou</td>
-		<td><b>I</b><br/>kw<br/>ei<br/>ji</td>
+		<td><b>U</b><br/>kw<br/>ou</td>
+		<td><b>I</b><br/>ji<br/>ei</td>
 		<td><b>O</b></td>
 		<td><b>P</b><br/>oi</td>
 	</tr>
 	<tr valign="top">
 		<td><b>A</b><br/>aa</td>
-		<td><b>S</b><br/>at<br/>an</td>
+		<td><b>S</b><br/>si<br/>at<br/>an</td>
 		<td><b>D</b><br/>au</td>
 		<td><b>F</b><br/>ai</td>
 		<td><b>G</b><br/>oek<br/>oeng</td>
-		<td><b>H</b><br/>it<br/>in<br/>jit<br/>jin</td>
-		<td><b>J</b><br/>eoi<br/>ui</td>
+		<td><b>H</b><br/>it<br/>in<br/>jin</td>
+		<td><b>J</b><br/>jat<br/>eoi<br/>ui</td>
 		<td><b>K</b><br/>iu<br/>jiu</td>
 		<td><b>L</b><br/>ip<br/>im</td>
 		<td><b>;</b></td>
@@ -52,7 +52,7 @@
 		<td><b>X</b><br/>aap<br/>aam</td>
 		<td><b>C</b><br/>aak<br/>aang<br/>ak<br/>ang</td>
 		<td><b>V</b><br/>ng<br/>ap<br/>am</td>
-		<td><b>B</b><br/>ek<br/>eng<br/>ik<br/>ing<br/>jeng<br/>jik<br/>jing</td>
+		<td><b>B</b><br/>ek<br/>eng<br/>ik<br/>ing<br/>jeng<br/>jing</td>
 		<td><b>N</b><br/>uk<br/>ung</td>
 		<td><b>M</b><br/>ok<br/>ong</td>
 		<td><b>,</b></td>
@@ -151,7 +151,7 @@
 			<td><code>keoi</code></td>
 		</tr>
 		<tr valign="top">
-			<th><kbd>I</kbd></th>
+			<th><kbd>U</kbd></th>
 			<td><code>ku</code></td>
 			<td><code>kut</code></td>
 			<td><code>kui</code></td>
