@@ -27,7 +27,7 @@
 		<td><b>Q</b><br/>aau</td>
 		<td><b>W</b><br/>aai</td>
 		<td><b>E</b></td>
-		<td><b>R</b><br/>gw<br/>yut<br/>yun<br/>ut<br/>un<br/>jyun</td>
+		<td><b>R</b><br/>gw<br/>yut<br/>yun<br/>jyun<br/>ut<br/>un</td>
 		<td><b>T</b><br/>eot<br/>eon<br/>ot<br/>on</td>
 		<td><b>Y</b><br/>yu<br/>jyu<br/>oe</td>
 		<td><b>U</b><br/>kw<br/>ou</td>
