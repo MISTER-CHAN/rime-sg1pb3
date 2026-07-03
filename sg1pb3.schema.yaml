@@ -63,33 +63,30 @@ speller:
   initials: abcdefghijklmnopqrstuvwxyz
   delimiter: " '"
   algebra:
-    - xform/(?<=[ptk])1/7/
-    - xform/(?<=[ptk])3/8/
-    - xform/(?<=[ptk])6/9/
-    - xform/(?<=[gk])u(?=[int]?\d)/wu/
+    - xform/(?<=[tkp])1/7/
+    - xform/(?<=[tkp])3/8/
+    - xform/(?<=[tkp])6/9/
+    - xform/(?<=[gk])u(?=[tni]?\d)/wu/
     - xform/aau/Q/
     - xform/^w|aai/W/
-    - xform/jyun/R/
-    - xform/gw|y?u[nt](?=\d)/R/
+    - xform/gw|jyun|y?u[tn](?=\d)/R/
     - xform/(?<!o)e(?=\d)/E/
-    - xform/^t|e?o[nt](?=\d)/T/
+    - xform/^t|e?o[tn](?=\d)/T/
     - xform/(?:j?yu|oe)(?=\d)/Y/
-    - xform/kw|(?<![aeiy])o?u(?=\d)/U/
-    - xform/si(?=\d)/S/
-    - xform/j?(?<![aou])e?i(?=\d)/I/
+    - xform/kw|(?<![aeyi])u(?=\d)|ou/U/
+    - xform/(?:ji|(?<![asuo])i)(?=\d)|ei/I/
     - xform/o(?=\d)/O/
     - xform/^p|(?<!e)oi/P/
     - xform/aa(?=\d)/A/
-    - xform/jat/J/
-    - xform/s|(?<=[^a])a[nt](?=\d)/S/
-    - xform/d|au/D/
-    - xform/f|ai/F/
+    - xform/s(?:i(?=\d))?|(?<=[^a])an(?=\d)|(?<=[^aj])at/S/
+    - xform/d|(?<!a)au/D/
+    - xform/f|(?<!a)ai/F/
     - xform/^g|(?<!^)oe(?:ng|k)/G/
     - xform/h|j?in(?=\d)|it/H/
-    - xform/j(?![ei][nu]|yu\d)|ui|eoi/J/
-    - xform/^k|j?iu|eu/K/
+    - xform/jat|j(?!yu[n\d]|i\d|[ei][un])|eoi|ui/J/
+    - xform/^k|eu|j?iu/K/
     - xform/l|(?<!^)[ei][mp]/L/
-    - xform/z|aa[nt](?=\d)/Z/
+    - xform/z|aa[tn](?=\d)/Z/
     - xform/aa[mp]/X/
     - xform/c|aa?(?:ng|k)/C/
     - xform/^ng|(?<!a)a[mp]/V/
@@ -114,13 +111,11 @@ cangjie5:
   suffix: "'"
   tips: 〔倉頡五代〕
   preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    __include: 'cangjie5.schema:/translator/preedit_format'
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+    __include: 'cangjie5.schema:/translator/comment_format'
   disable_user_dict_for_patterns:
-    - "^z.*$"
-    - "^yyy.*$"
+    __include: 'cangjie5.schema:/translator/disable_user_dict_for_patterns'
 
 wubi86:
   tag: wubi86
@@ -150,5 +145,5 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/(?:[0-9A-Za-z]+)$"
-    cangjie5: "^`[a-z]*'?$"
-    wubi86: "^``[a-z]*'?$"
+    cangjie5: "(?<!`)`[a-z]*'?$"
+    wubi86: "``[a-z]*'?$"
