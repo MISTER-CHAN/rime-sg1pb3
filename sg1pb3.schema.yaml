@@ -3,7 +3,7 @@
 
 schema:
   schema_id: sg1pb3
-  name: SG1PB3 雙拼
+  name: SGPB 雙拼
   version: '1.0'
   author:
     - MISTER_CHAN
@@ -140,6 +140,9 @@ punctuator:
 
 key_binder:
   import_preset: default
+  bindings:
+    - { accept: semicolon, send: Control+2, when: has_menu }
+    - { accept: apostrophe, send: Control+3, when: has_menu }
 
 recognizer:
   import_preset: default
