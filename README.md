@@ -120,6 +120,8 @@
 ### 聲調輸入
 * 配方：℞ `sg1pb3`  
 爲咗區分入聲字同非入聲字，可以撳 <kbd>1</kbd> ‒ <kbd>9</kbd> 嚟用聲調篩選。
+* 配方：℞ `sgApbD`  
+同上，但轉做撳 <kbd>Shift+A</kbd> ‒ <kbd>Shift+L</kbd> 。
 ### 注意
 - 對於拼音 `gu`、`gui`、`gun`、`ku`、`kui`、`kut`，聲母要串成 `gw`、`kw`。<details>
 	<summary>即係話，</summary>
