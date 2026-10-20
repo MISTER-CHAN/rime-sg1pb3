@@ -1,0 +1,16 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sg1pb3.schema:/
+
+schema:
+  __include: sg1pb3.schema:/schema
+  schema_id: sgApbD
+  name: SGPB 雙拼（PC）
+
+__patch:
+  __include: sg1pb3.custom:/patch?
+  speller/alphabet: abcdefghijklmnopqrstuvwxyzASDFGHJKL
+  speller/algebra/+:
+    - xlit/123456789/ASDFGHJKL/
+  translator/prism: sgApbD
