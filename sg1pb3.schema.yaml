@@ -142,7 +142,6 @@ key_binder:
   import_preset: default
   bindings:
     - { accept: semicolon, send: Control+2, when: has_menu }
-    - { accept: apostrophe, send: Control+3, when: has_menu }
 
 recognizer:
   import_preset: default
