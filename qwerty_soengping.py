@@ -12,7 +12,7 @@ t.color('red')
 for i in range(3):
     for j in range(len(qwe[i])):
         le = qwe[i][j]
-        x, y = (j + i * 0.5 / 3) * hor_gap, (2 - float(i)) * ver_gap
+        x, y = (j + i / 3.0) * hor_gap, (2 - float(i)) * ver_gap
         le_pos[le] = x, y
         t.pu()
         t.goto(x + hor_off, y + ver_off)
